@@ -1,0 +1,70 @@
+.listContainer {
+    height: 100%;
+    .table {
+      width: 98%;
+      margin: 20px auto;
+      border: 1px solid #eee;
+      font-size: 14px;
+      .iconBox {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) rotate(0deg);
+        .iconfont {
+          font-size: 14px;
+        }
+      }
+      .iconBoxDown {
+        transform: rotate(90deg);
+      }
+      .item {
+        vertical-align: middle;
+        .btn {
+        padding: 3px;
+        font-size: 12px;
+        border: 1px solid #C4C4C4;
+        margin-right: 10px;
+        }
+        .btn-danger {
+          background-color: #FF4949;
+          border: 1px solid #FF4949;
+          color: #fff;
+        }
+      }
+      .Detail {
+        box-sizing: border-box;
+        padding: 20px 50px;
+        height: 100%;
+        background-color: #FBFDFF;
+        overflow: hidden;
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 40% 40%;
+        grid-template-columns: 40% 40%;
+        align-content: center;
+        justify-content: center;
+        grid-column-gap: 20px;
+        .detailItem {
+          width: 100%;
+          display: flex;
+          .name {
+            color: #A7B6C8;
+            width: 80px;
+            height: 36px;
+            line-height: 36px;
+          }
+          .value {
+            flex: 1;
+            line-height: 36px;
+          }
+        }
+  
+      }
+    }
+    .pager {
+      width: 95%;
+      margin: 0 auto;
+      display: flex;
+      height: 50px;
+    }
+  }
